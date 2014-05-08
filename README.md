@@ -109,3 +109,5 @@ Let's try it.  We should see the application print out "It worked.":
 
     Total time: 5.95 secs
 ```
+
+It worked.
