@@ -9,6 +9,7 @@ buildscript {
 
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:1+")
+        classpath("org.springframework:springloaded:1+")
     }
 }
 
@@ -17,5 +18,5 @@ repositories {
 }
 
 dependencies {
-    compile("org.springframework.boot:spring-boot:1+")
+    compile("org.springframework.boot:spring-boot-starter-web:1+")
 }
