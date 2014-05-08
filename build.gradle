@@ -18,4 +18,5 @@ repositories {
 
 dependencies {
     compile("org.springframework.boot:spring-boot:1+")
+    compile("org.yaml:snakeyaml:1+")
 }
