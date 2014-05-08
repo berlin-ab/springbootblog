@@ -1,6 +1,6 @@
+# Example Spring Boot Project
 
-- Installation Steps
-  - gradle
+See Git Branches:
 
-- Benefits
-- Testing
+# An example of a minimal installation of Spring Boot
+- blog/minimal-install
