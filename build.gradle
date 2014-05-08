@@ -17,4 +17,5 @@ repositories {
 }
 
 dependencies {
+    compile("org.springframework.boot:spring-boot:1.0.2.RELEASE")
 }
