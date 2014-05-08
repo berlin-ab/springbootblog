@@ -2,5 +2,11 @@
 
 ##See Git Branches:
 
-### An example of a minimal installation of Spring Boot
+### A minimal installation of Spring Boot
 - blog/minimal-install
+
+### Setting configuration values from YAML files
+- blog/configuration
+
+### Dependency Injection Basics
+- blog/autowire-components
