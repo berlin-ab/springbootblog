@@ -6,14 +6,19 @@ I've been playing around with Spring Boot <http://projects.spring.io/spring-boot
 
 - gradle init:
 
+```
 	$ gradle init
+```
 
 - edit `build.gradle` and enable the gradle java plugin:
 
+```
 	apply plugin: 'java'
+```
 
 - create a plain Java application:
 
+```
 	$ PROJECT_NAME=example
 	$ mkdir -p src/main/java/${PROJECT_NAME}
 	$ touch src/main/java/${PROJECT_NAME}/Application.java
@@ -27,8 +32,11 @@ I've been playing around with Spring Boot <http://projects.spring.io/spring-boot
 	    }
 	}
 
+```
+
 - edit `build.gradle` and enable the spring boot gradle plugin:
 
+```
 	apply plugin: 'spring-boot'
 
 	buildscript {
@@ -40,9 +48,11 @@ I've been playing around with Spring Boot <http://projects.spring.io/spring-boot
 	        classpath("org.springframework.boot:spring-boot-gradle-plugin:1+")
 	    }
 	}
+```
 
 - edit `build.gradle` and add the spring boot dependency:
 
+```
 	repositories {
 	    mavenCentral()
 	}
@@ -50,9 +60,12 @@ I've been playing around with Spring Boot <http://projects.spring.io/spring-boot
 	dependencies {
 	    compile("org.springframework.boot:spring-boot:1+")
 	}
+```
 
 - run spring boot when you run your application:
 
+
+```
 	package example;
 
 	import org.springframework.boot.SpringApplication;
@@ -62,9 +75,11 @@ I've been playing around with Spring Boot <http://projects.spring.io/spring-boot
 	        SpringApplication.run(Application.class, args);
 	    }
 	}
+```
 
 - try it out
 
+```
 	$ gradle bootRun
 	:compileJava UP-TO-DATE
 	:bootRun
@@ -85,3 +100,4 @@ I've been playing around with Spring Boot <http://projects.spring.io/spring-boot
 	BUILD SUCCESSFUL
 
 	Total time: 4.987 secs
+```
