@@ -42,7 +42,7 @@ Let's start with something to inject.  We'll start by defining a `@Component` cl
     }
 ```
 
-Now Let's inject a thing into our Application.
+Now Let's inject a thing into another thing.
 
 First we need to tell our SpringApplication to go find components.  To do this, we'll use the `@ComponentScan` and `@Configuration` annotations, and we'll tell it to look in our `things` package:
 
